@@ -1,9 +1,9 @@
 // src/utils/api.js
 import axios from "axios";
 
-// ✅ Base URL (falls back to localhost:5001 if env not set)
+// ✅ Base URL (falls back to excel-analytics-backend-daoj.onrender.com if env not set)
 const baseURL =
-  process.env.REACT_APP_API_URL || "http://localhost:5001";
+  process.env.REACT_APP_API_URL || "https://excel-analytics-backend-daoj.onrender.com";
 
 // ✅ Ensure API suffix
 const api = axios.create({
